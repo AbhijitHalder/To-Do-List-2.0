@@ -1,0 +1,134 @@
+body {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    min-width: 500px;
+    background-color: #181a1b;
+}
+
+/* Include the padding and border in an element's total width and height */
+* {
+    box-sizing: border-box;
+}
+
+/* Remove margins and padding from the list */
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the list items */
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #a9bea0;
+    font-size: 18px;
+    transition: 0.2s;
+    text-align: center;
+
+
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+    background: #b0b5a1;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+    background: #a4c149;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+    background: #60ac20;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+/* Style the delTask button */
+.delTask {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.delTask:hover {
+    background-color: #f44336;
+    color: #bada55;
+}
+
+/* Style the header */
+.header {
+    background-color: #6332ac;
+    padding: 30px 40px;
+    color: #a4c149;
+    text-align: center;
+}
+
+/* Clear floats after the header */
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the input */
+#taskDescr {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    background-color: #bada55;
+    color: #6332ac;
+}
+
+/* Style the "Add" button */
+#addTask {
+    padding: 9px;
+    width: 25%;
+    background: #bada55;
+    color: #6332ac;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+
+#addTask:hover {
+    background-color: #85a221;
+}
+
+/* Style the "Checkbox" */
+.checkBox {
+    position: initial;
+    float: left;
+    transform: scale(1.5);;
+}
+
+/*style the weather section*/
+article {
+    text-align: center;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    background-color: #bada55;
+    color: #6332ac;
+}
