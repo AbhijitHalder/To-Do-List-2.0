@@ -1,11 +1,11 @@
 TO DO LIST 2.0
 https://abhijithalder.github.io/To-Do-List-2.0/
 
-uses HTml
+Uses HTml
 Uses Css
 Uses javascript
-uses DOM api
-uses GEOLOCATION api
+Uses DOM api
+Uses GEOLOCATION api
 Uses OPENWEATHERMAP api
 
 #Functionality -
