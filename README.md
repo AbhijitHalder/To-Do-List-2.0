@@ -2,12 +2,12 @@
 https://abhijithalder.github.io/To-Do-List-2.0/
 
 
-Uses HTml
-Uses Css
-Uses javascript
-Uses DOM api
-Uses GEOLOCATION api
-Uses OPENWEATHERMAP api
+Uses HTml,
+Uses Css,
+Uses javascript,
+Uses DOM api,
+Uses GEOLOCATION api,
+Uses OPENWEATHERMAP api,
 
 #Functionality -
 	1. Asks user for location access on Load
